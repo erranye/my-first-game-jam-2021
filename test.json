@@ -1,0 +1,24 @@
+{
+	"test_scene": {
+		"0": {
+			"name": "Test Character 1",
+			"expression": "hopeful",
+			"text": "Man! I really hope I get this thing working!"
+		},
+        "1": {
+            "name": "Test Character 2",
+            "expression": "angry",
+            "text": "It better work."
+        },
+        "2": {
+            "name": "Test Character 3",
+            "expression": "reassuring",
+            "text": "It will work."
+        },
+        "3": {
+            "name": "Test Character 3",
+            "expression": "reassuring",
+            "text": "Don't add multiple same indices."
+        }
+	}
+}
