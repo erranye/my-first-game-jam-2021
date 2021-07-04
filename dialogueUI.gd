@@ -4,6 +4,10 @@ var dialogue_container
 var speaker_name
 var speaker_dialogue
 var tween
+
+var dialogue_scrollbox
+var dialogue_options_container
+var dialogue_options_prompt
 var animating = true
 
 func _ready():
@@ -11,7 +15,9 @@ func _ready():
 	speaker_name = $DialogueContainer/speakerName
 	speaker_dialogue = $DialogueContainer/DialogueBox/speakerDialogue
 	tween = $DialogueContainer/DialogueBox/Tween
-	
+	dialogue_scrollbox = $DialogueOptionsScrollbox
+	dialogue_options_container = $DialogueOptionsScrollbox/DialogueOptionsContainer
+	dialogue_options_prompt = $DialogueOptionsScrollbox/DialogueOptionsContainer/DialogueOptionsPrompt
 	speaker_dialogue.percent_visible = 0
 
 func tween_dialogue():
@@ -40,4 +46,20 @@ func show_text_box():
 func hide_text_box():
 	dialogue_container.visible = false
 
+func show_dialogue_options():
+	dialogue_scrollbox.visible = true
 
+func hide_dialogue_options():
+	dialogue_scrollbox.visible = false
+
+func set_dialogue_options_prompt(dialogue_prompt_text):
+	dialogue_options_prompt.bbcode_text = dialogue_prompt_text
+	
+func add_dialogue_option(dialogue_text):
+	var new_button = Button.new()
+	new_button.text = dialogue_text
+	dialogue_options_container.add_child(new_button)
+
+
+func _on_Button_button_up():
+	add_dialogue_option('Test!') # Replace with function body.

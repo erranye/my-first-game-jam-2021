@@ -1,5 +1,8 @@
 {
-	"test_scene": {
+	"scene_0": {
+        "meta": {
+            "scene_name": "Bedroom"
+        },
 		"0": {
 			"name": "Test Character 1",
 			"expression": "hopeful",

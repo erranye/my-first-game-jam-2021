@@ -1,0 +1,103 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://assets/tileset/warped city/tileset.png" type="Texture" id=1]
+[ext_resource path="res://assets/player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/boss.tscn" type="PackedScene" id=3]
+[ext_resource path="res://script/boss_fight.gd" type="Script" id=4]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
+
+[sub_resource type="TileSet" id=2]
+0/name = "tileset.png 0"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 112, 176, 16, 16 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape = SubResource( 1 )
+0/shape_one_way = true
+0/shape_one_way_margin = 1.0
+0/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": true,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+0/z_index = 0
+
+[node name="boss_fight" type="Node2D"]
+script = ExtResource( 4 )
+
+[node name="player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 61.7218, 77.4957 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource( 2 )
+cell_size = Vector2( 16, 16 )
+show_collision = true
+collision_layer = 4
+collision_mask = 0
+format = 1
+tile_data = PoolIntArray( -1, 0, 0, -65472, 0, 0, 65535, 0, 0, 64, 0, 0, 131071, 0, 0, 65600, 0, 0, 196607, 0, 0, 131136, 0, 0, 262143, 0, 0, 196672, 0, 0, 327679, 0, 0, 262208, 0, 0, 393215, 0, 0, 327744, 0, 0, 458751, 0, 0, 393280, 0, 0, 524287, 0, 0, 458816, 0, 0, 589823, 0, 0, 524352, 0, 0, 655359, 0, 0, 589888, 0, 0, 720895, 0, 0, 655424, 0, 0, 786431, 0, 0, 720960, 0, 0, 851967, 0, 0, 786496, 0, 0, 917503, 0, 0, 852032, 0, 0, 983039, 0, 0, 917568, 0, 0, 1048575, 0, 0, 983104, 0, 0, 1114111, 0, 0, 1048640, 0, 0, 1179647, 0, 0, 1114176, 0, 0, 1245183, 0, 0, 1179712, 0, 0, 1310719, 0, 0, 1245248, 0, 0, 1376255, 0, 0, 1310784, 0, 0, 1441791, 0, 0, 1376320, 0, 0, 1507327, 0, 0, 1441856, 0, 0, 1572863, 0, 0, 1507392, 0, 0, 1638399, 0, 0, 1572928, 0, 0, 1703935, 0, 0, 1638464, 0, 0, 1769471, 0, 0, 1704000, 0, 0, 1835007, 0, 0, 1769536, 0, 0, 1900543, 0, 0, 1835072, 0, 0, 1966079, 0, 0, 1900608, 0, 0, 2031615, 0, 0, 1966144, 0, 0, 2097151, 0, 0, 2031621, 0, 0, 2031622, 0, 0, 2031623, 0, 0, 2031624, 0, 0, 2031625, 0, 0, 2031626, 0, 0, 2031653, 0, 0, 2031654, 0, 0, 2031655, 0, 0, 2031656, 0, 0, 2031657, 0, 0, 2031658, 0, 0, 2031659, 0, 0, 2031660, 0, 0, 2031680, 0, 0, 2162687, 0, 0, 2097216, 0, 0, 2228223, 0, 0, 2162752, 0, 0, 2293759, 0, 0, 2228288, 0, 0, 2359295, 0, 0, 2293824, 0, 0, 2424831, 0, 0, 2359296, 0, 0, 2359297, 0, 0, 2359298, 0, 0, 2359299, 0, 0, 2359300, 0, 0, 2359301, 0, 0, 2359302, 0, 0, 2359303, 0, 0, 2359304, 0, 0, 2359305, 0, 0, 2359306, 0, 0, 2359307, 0, 0, 2359308, 0, 0, 2359309, 0, 0, 2359310, 0, 0, 2359311, 0, 0, 2359312, 0, 0, 2359313, 0, 0, 2359314, 0, 0, 2359315, 0, 0, 2359316, 0, 0, 2359317, 0, 0, 2359318, 0, 0, 2359319, 0, 0, 2359320, 0, 0, 2359321, 0, 0, 2359322, 0, 0, 2359323, 0, 0, 2359324, 0, 0, 2359325, 0, 0, 2359326, 0, 0, 2359327, 0, 0, 2359328, 0, 0, 2359329, 0, 0, 2359330, 0, 0, 2359331, 0, 0, 2359332, 0, 0, 2359333, 0, 0, 2359334, 0, 0, 2359335, 0, 0, 2359336, 0, 0, 2359337, 0, 0, 2359338, 0, 0, 2359339, 0, 0, 2359340, 0, 0, 2359341, 0, 0, 2359342, 0, 0, 2359343, 0, 0, 2359344, 0, 0, 2359345, 0, 0, 2359346, 0, 0, 2359347, 0, 0, 2359348, 0, 0, 2359349, 0, 0, 2359350, 0, 0, 2359351, 0, 0, 2359352, 0, 0, 2359353, 0, 0, 2359354, 0, 0, 2359355, 0, 0, 2359356, 0, 0, 2359357, 0, 0, 2359358, 0, 0, 2359359, 0, 0, 2359360, 0, 0 )
+
+[node name="boss" parent="." instance=ExtResource( 3 )]
+position = Vector2( 839.044, 355.998 )
+
+[node name="boss_positions" type="Node2D" parent="."]
+
+[node name="boss_position_0" type="Position2D" parent="boss_positions"]
+position = Vector2( 504.029, 251.071 )
+
+[node name="boss_position_1" type="Position2D" parent="boss_positions"]
+position = Vector2( 143.469, 103.826 )
+
+[node name="boss_position_2" type="Position2D" parent="boss_positions"]
+position = Vector2( 498.047, 100.466 )
+
+[node name="boss_position_3" type="Position2D" parent="boss_positions"]
+position = Vector2( 858.412, 91.7169 )
+
+[node name="boss_position_4" type="Position2D" parent="boss_positions"]
+position = Vector2( 28.3461, 386.64 )
+
+[node name="boss_position_5" type="Position2D" parent="boss_positions"]
+position = Vector2( 507.597, 397.343 )
+
+[node name="boss_position_6" type="Position2D" parent="boss_positions"]
+position = Vector2( 959.495, 402.1 )
+
+[node name="bossRepositionTimer" type="Timer" parent="."]
+wait_time = 2.0
+
+[node name="boss_ability_positions" type="Node2D" parent="."]
+
+[node name="flamelash_positions" type="Node2D" parent="."]
+
+[node name="flamelash_position_0" type="Position2D" parent="flamelash_positions"]
+position = Vector2( 55.8928, 548.225 )
+
+[node name="flamelash_position_1" type="Position2D" parent="flamelash_positions"]
+position = Vector2( 103.461, 548.225 )
+
+[node name="flamelash_position_4" type="Position2D" parent="flamelash_positions"]
+position = Vector2( 240.22, 548.225 )
+
+[node name="flamelash_position_5" type="Position2D" parent="flamelash_positions"]
+position = Vector2( 284.221, 549.414 )
+
+[node name="flamelash_position_7" type="Position2D" parent="flamelash_positions"]
+position = Vector2( 376.979, 547.036 )
+
+[node name="flamelash_position_9" type="Position2D" parent="flamelash_positions"]
+position = Vector2( 466.169, 545.846 )
+
+[node name="flamelash_position_11" type="Position2D" parent="flamelash_positions"]
+position = Vector2( 582.712, 544.657 )
+
+[connection signal="timeout" from="bossRepositionTimer" to="." method="_on_bossRepositionTimer_timeout"]

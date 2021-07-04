@@ -1,6 +1,7 @@
 extends Node
 const dialogue_handler = preload("res://script/dialogueHandler.gd")
 
+var scene_index
 var scene_name
 var scene_dialogue_handler
 var scene_dialogue
@@ -28,7 +29,6 @@ func _physics_process(delta):
 
 func update_dialogue():
 	scene_dialogue_handler.run_dialogue()
-	print(scene_dialogue_handler.dialogue_index)
 	dialogue_ui.set_speaker_name(scene_dialogue_handler.current_speaker)
 	dialogue_ui.set_dialogue_text(scene_dialogue_handler.current_speaker_text)
 	dialogue_ui.tween_dialogue()
