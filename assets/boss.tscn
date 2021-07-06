@@ -295,7 +295,7 @@ animations = [ {
 } ]
 
 [sub_resource type="RectangleShape2D" id=49]
-extents = Vector2( 19.2713, 28.3304 )
+extents = Vector2( 21.16, 30.8838 )
 
 [sub_resource type="CapsuleShape2D" id=50]
 radius = 43.0533
@@ -313,6 +313,7 @@ script = ExtResource( 9 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 48 )
 animation = "attack2"
+frame = 1
 playing = true
 
 [node name="hitBox" type="Area2D" parent="."]

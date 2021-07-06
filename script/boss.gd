@@ -55,7 +55,7 @@ func process_attack():
 			# Random 1 or 2
 			var attack_i = randi()% 2 + 1
 			rev_attack(attack_i)
-			attack_timer.set_wait_time(5)
+			attack_timer.set_wait_time(7)
 			attack_timer.start()
 			first_attack = false
 		elif attack_timer.get_time_left() < 1 and not attacking:
@@ -64,7 +64,7 @@ func process_attack():
 			# Random 1 or 2
 			var attack_i = randi()% 2 + 1
 			rev_attack(attack_i)
-			attack_timer.set_wait_time(4)
+			attack_timer.set_wait_time(7)
 			attack_timer.start()
 
 func orient_boss(flip):
@@ -88,11 +88,12 @@ func death_check():
 	
 func boss_animation_loop():
 	if getting_hit and not attacking:
-		_boss_sprite.modulate = Color(1,0,0,0.5)
+		_boss_sprite.modulate = Color(1,0,0,1)
 		_boss_sprite.play("get_hit")
 	elif attacking:
 		getting_hit = false
 	else:
+		_boss_sprite.modulate = Color(1,1,1,1)
 		_boss_sprite.play("idle")
 
 func rev_attack(n):
@@ -101,9 +102,9 @@ func rev_attack(n):
 	_boss_sprite.play("attack"+str(n))
 	_boss_sprite.set_frame(0)
 	_boss_sprite.stop()
-	revving_timer.set_wait_time(1)
+	revving_timer.set_wait_time(2)
 	revving_timer.start()
-	$Tween.interpolate_property(self, "modulate", Color(1,1,1,1), Color(1,0.2,0.2,0.8), 1.0,
+	$Tween.interpolate_property(self, "scale", Color(1,1,1,1), Color(1,0,0,1), 2.0,
 								Tween.TRANS_LINEAR, Tween.EASE_IN)
 	$Tween.start()
 
@@ -207,6 +208,7 @@ func _on_fadeTimer_timeout():
 		
 func _on_revvingTimer_timeout():
 	boss_swing(revving_attack)
+	_boss_sprite.modulate = Color(1,1,1,1)
 	var bodies_to_damage
 	for body in detected_bodies_to_hit:
 		if not swing_damaged:
