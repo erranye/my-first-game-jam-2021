@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 # Player script based on GDQuests's "Make Your First 2D Game with Godot" Tutorial
 export var _player_speed: = Vector2(300.0, 600.0)
-export var _player_hp = 100.0
+export var _player_hp = 200.0
 export var gravity = 2000.0
 export var light_damage = 10.0
 export var heavy_damage = 30.0
@@ -50,18 +50,15 @@ func _physics_process(dt):
 func _process(dt):
 	if _player_dead:
 		if not death_animation_played:
-			death_animation_played = true
 			_player_sprite.play("death")
 			yield(_player_sprite, "animation_finished")
-		_player_sprite.stop()
-	elif _player_getting_hit:
-		_player_sprite.play("get_hit")
+		_player_sprite.play("dead")
 	else:
 		player_animation_loop()
 
 func player_movement_loop(dt):
 	var jump_interrupted = Input.is_action_just_released("jump") and _player_velocity.y < 0.0
-	if not _player_attacking and not _player_getting_hit:
+	if not _player_attacking:
 		_player_direction = get_direction()
 		_player_velocity = calculate_move_velocity(_player_velocity, _player_direction, _player_speed, jump_interrupted)
 		_player_velocity = move_and_slide(_player_velocity, FLOOR_NORMAL)
@@ -73,7 +70,10 @@ func player_animation_loop():
 		player_attack("basic_attack")
 	elif Input.is_action_just_pressed("heavy_attack"):
 		player_attack("heavy_attack")
-	if not _player_attacking:
+	elif _player_getting_hit:
+		_player_sprite.play("get-hit")
+		_player_getting_hit = false
+	elif not _player_attacking:
 		if player_idle():
 			_player_sprite.play("idle")
 		elif player_jumping():
@@ -122,8 +122,6 @@ func take_damage(dmg):
 	_player_getting_hit = true
 	# Cancel any jumping animation
 	_player_velocity.y = 0.0
-	# Red overlay
-	_player_sprite.modulate = Color(1,0,0,0.3)
 	print(_player_hp)
 	if _player_hp <= 0:
 		_player_dead = true
@@ -166,6 +164,5 @@ func _on_AnimatedSprite_animation_finished():
 		attack1_collision_shape_flip_h.disabled = true
 		attack2_collision_shape_flip_h.disabled = true
 		damage_emitted = false
-	if _player_sprite.animation == "get_hit":
-		_player_getting_hit = false
-		_player_sprite.modulate = Color(1,1,1,1)
+	if _player_sprite.animation == "death":
+		death_animation_played = true
