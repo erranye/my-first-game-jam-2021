@@ -118,6 +118,7 @@ func calculate_move_velocity(
 	return out
 
 func take_damage(dmg):
+	$damageNumberManager.show_value(dmg)
 	_player_hp -= dmg
 	_player_getting_hit = true
 	# Cancel any jumping animation

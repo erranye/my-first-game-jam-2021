@@ -69,7 +69,7 @@ func boss_reposition():
 		boss._boss_sprite.flip_h = false
 		boss.orient_boss(false)
 	spawn_ground_flame_lashes(index_to_teleport_to)
-	spawn_bleeding_fire()
+#	spawn_bleeding_fire()
 
 func spawn_bleeding_fire():
 	var new_bleeding_fire = bleedingfire.instance()

@@ -143,10 +143,13 @@ func fade_in():
 	
 func on_hit(body, attack_type):
 	getting_hit = true
+	var dmg
 	if attack_type == '1':
-		current_hp -= body.light_damage
+		dmg = body.light_damage
 	elif attack_type == '2':
-		current_hp -= body.heavy_damage
+		dmg = body.heavy_damage
+	current_hp -= dmg
+	$damageNumberManager.show_value(dmg)
 	print(current_hp)
 	
 func _on_AnimatedSprite_animation_finished():
