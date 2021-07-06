@@ -2,7 +2,8 @@ extends KinematicBody2D
 
 # Player script based on GDQuests's "Make Your First 2D Game with Godot" Tutorial
 export var _player_speed: = Vector2(300.0, 600.0)
-export var _player_hp = 200.0
+export var _total_player_hp = 200.0
+var _player_hp = _total_player_hp
 export var gravity = 2000.0
 export var light_damage = 10.0
 export var heavy_damage = 30.0
@@ -15,6 +16,7 @@ var _player_attacking = false
 var _player_getting_hit = false
 var _player_dead = false
 var _collision_shape
+var hp_bar
 
 # Variable to ensure damage occurs only once per attack animation
 # Hacked in "boss" script
@@ -33,6 +35,7 @@ const FLOOR_NORMAL : = Vector2.UP
 
 func _ready():
 	_player_sprite = $AnimatedSprite
+	hp_bar = $hpBar
 	attack1_collision_shape = $AnimatedSprite/attack1hitbox/CollisionShape2D
 	attack2_collision_shape = $AnimatedSprite/attack2hitbox/CollisionShape2D
 	attack1_collision_shape_flip_h = $AnimatedSprite/attack1hitbox_flip_h/CollisionShape2D
@@ -48,6 +51,7 @@ func _physics_process(dt):
 		player_movement_loop(dt)
 	
 func _process(dt):
+	hp_bar.update_bar(_player_hp/_total_player_hp, _player_hp)
 	if _player_dead:
 		if not death_animation_played:
 			_player_sprite.play("death")
@@ -118,7 +122,7 @@ func calculate_move_velocity(
 	return out
 
 func take_damage(dmg):
-	$damageNumberManager.show_value(dmg)
+	$damageNumberManager.show_value(dmg, Color(1,1,1,1))
 	_player_hp -= dmg
 	_player_getting_hit = true
 	# Cancel any jumping animation

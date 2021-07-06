@@ -19,6 +19,7 @@ var first_attack = true
 var attack_timer
 var swing_damaged = false
 var detected_bodies_to_hit
+var hp_bar
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -27,10 +28,12 @@ func _ready():
 	fade_timer = $fadeTimer
 	attack_timer = $attackTimer
 	revving_timer = $revvingTimer
+	hp_bar = $hpBar
 	reposition_timer = get_parent().get_node("bossRepositionTimer")
 	fx.play_teleport_in()
 
 func _process(dt):
+	hp_bar.update_bar(current_hp/total_hp, current_hp)
 	death_check()
 	if dead:
 		disable_hitboxes()
@@ -149,7 +152,7 @@ func on_hit(body, attack_type):
 	elif attack_type == '2':
 		dmg = body.heavy_damage
 	current_hp -= dmg
-	$damageNumberManager.show_value(dmg)
+	$damageNumberManager.show_value(dmg, Color(1,0,0,1))
 	print(current_hp)
 	
 func _on_AnimatedSprite_animation_finished():

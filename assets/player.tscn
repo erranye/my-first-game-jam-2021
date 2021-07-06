@@ -1,4 +1,4 @@
-[gd_scene load_steps=109 format=2]
+[gd_scene load_steps=110 format=2]
 
 [ext_resource path="res://assets/sprites/striker/spr_StrikerIdle_strip.png" type="Texture" id=1]
 [ext_resource path="res://script/player.gd" type="Script" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://assets/sprites/striker/spr_StrikerGetHit_strip.png" type="Texture" id=7]
 [ext_resource path="res://assets/sprites/striker/spr_StrikerDeath_strip.png" type="Texture" id=8]
 [ext_resource path="res://assets/damageNumberManager.tscn" type="PackedScene" id=9]
+[ext_resource path="res://assets/hpBar.tscn" type="PackedScene" id=10]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 8.36136, 16.6287 )
@@ -605,5 +606,11 @@ shape = SubResource( 98 )
 [node name="attackTimer" type="Timer" parent="."]
 
 [node name="damageNumberManager" parent="." instance=ExtResource( 9 )]
+
+[node name="hpBar" parent="." instance=ExtResource( 10 )]
+margin_left = -30.7013
+margin_top = -31.5912
+margin_right = 27.2987
+margin_bottom = -21.5912
 
 [connection signal="animation_finished" from="AnimatedSprite" to="." method="_on_AnimatedSprite_animation_finished"]

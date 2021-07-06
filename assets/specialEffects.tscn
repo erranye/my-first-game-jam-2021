@@ -6570,7 +6570,7 @@ script = ExtResource( 21 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 1293 )
 animation = "fire"
-frame = 14
+frame = 11
 playing = true
 
 [node name="FlameWhip" type="Area2D" parent="."]

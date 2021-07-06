@@ -4,9 +4,10 @@ extends Label
 func _ready():
 	pass # Replace with function body.
 
-func show_value(value, travel, duration, spread):
+func show_value(value, travel, duration, spread, color):
 	# From https://kidscancode.org/godot_recipes/ui/floating_text/
 	text = value
+	self.modulate = color
 	var movement = travel.rotated(rand_range(-spread/2,spread/2))
 	rect_pivot_offset = rect_size/2
 	$Tween.interpolate_property(self, "rect_position", 
