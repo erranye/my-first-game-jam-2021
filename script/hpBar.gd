@@ -7,7 +7,7 @@ func _ready():
 
 func update_bar(percentage, display_value):
 	self.value = percentage
-	$Label.text = str(display_value)
+	$Label.text = str(max(0, display_value))
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):

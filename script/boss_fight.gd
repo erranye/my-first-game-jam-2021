@@ -17,13 +17,15 @@ var homing_spawn_timer
 # Phase 2: boss 75% hp
 # Phase 3: boss 50% hp
 # Phase 4: boss 25% hp
-var phase = 0
+var loss_menu
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	boss_positions = []
 	player = $player
 	boss = $boss
+	$tryAgainContainer.hide()
+	
 	boss.orient_boss(false)
 	for position in $boss_positions.get_children():
 		boss_positions.append(position.get_position())
@@ -35,16 +37,10 @@ func _ready():
 	homing_spawn_timer.connect("timeout", self, "_on_homing_spawn_timer_timeout")
 	add_child(homing_spawn_timer)
 	homing_spawn_timer.start()
-		
-func process(dt):
-	if boss.get_hp_percentage() > 0.5 and boss.get_hp_percentage < 0.75:
-		set_phase(2)
-	elif boss.get_hp_percentage() > 0.25 and boss.get_hp_percentage < 0.5:
-		set_phase(3)
-	elif boss.get_hp_percentage() > 0 and boss.get_hp_percentage < 0.25:
-		set_phase(4)
-	else: 
-		pass
+
+func _process(dt):
+	if player._player_dead:
+		$tryAgainContainer.show()
 
 func boss_reposition():
 	randomize()
@@ -108,14 +104,19 @@ func reset_boss_reposition_timer():
 	boss_reposition_timer.start()
 
 func _on_homing_spawn_timer_timeout():
-	if not boss.dead:
+	if not boss.dead and not player._player_dead:
 		spawn_homing_flame_lash()
 		reset_homing_spawn_timer()
 	
 func _on_bossRepositionTimer_timeout():
-	if not boss.dead:
+	if not boss.dead and not player._player_dead:
 		boss_reposition()
 		reset_boss_reposition_timer()
 
-func set_phase(n):
-	phase = n
+func restart_fight():
+	print("POO")
+#	get_tree().change_scene(get_tree().current_scene.filename)
+
+
+func _on_restartButton_pressed():
+	get_tree().change_scene(get_tree().current_scene.filename)

@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 # Player script based on GDQuests's "Make Your First 2D Game with Godot" Tutorial
 export var _player_speed: = Vector2(300.0, 600.0)
-export var _total_player_hp = 200.0
+export var _total_player_hp = 30.0
 var _player_hp = _total_player_hp
 export var gravity = 2000.0
 export var light_damage = 10.0

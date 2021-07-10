@@ -51,15 +51,14 @@ func show_dialogue_options():
 
 func hide_dialogue_options():
 	dialogue_scrollbox.visible = false
-
+	
 func set_dialogue_options_prompt(dialogue_prompt_text):
 	dialogue_options_prompt.bbcode_text = dialogue_prompt_text
 	
-func add_dialogue_option(dialogue_text):
-	var new_button = Button.new()
+func add_dialogue_option(dialogue_text, function):
+	var new_button = Button.instance()
 	new_button.text = dialogue_text
 	dialogue_options_container.add_child(new_button)
 
-
-func _on_Button_button_up():
-	add_dialogue_option('Test!') # Replace with function body.
+func connect_function(button, function):
+	button.connect("pressed", self, function)

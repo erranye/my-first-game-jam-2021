@@ -1,0 +1,41 @@
+{
+    "meta": {
+        "scene_name": "Bedroom"
+    },
+	"scene1": {
+		"0": {
+            "type": "display",
+			"speaker": "Test Character 1",
+			"expression": "hopeful",
+			"text": "Man! I really hope I get this thing working!"
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Test Character 2",
+            "expression": "angry",
+            "text": "It better work."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Test Character 3",
+            "expression": "reassuring",
+            "text": "It will work."
+        },
+        "3": {
+            "type": "display",
+            "speaker": "Test Character 3",
+            "expression": "reassuring",
+            "text": "Don't add multiple same indices."
+        },
+        "4": {
+            "type": "choice",
+            "choices": ["OOGALABOOGALA", "JOOGALADOOGALA", "THIS IS A CHOICE"]
+        },
+        "5": {
+            "type": "display",
+            "speaker": "I am a Character",
+            "expression": "angry",
+            "text": "More text."
+        }
+	}
+}

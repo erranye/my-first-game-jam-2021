@@ -22,13 +22,13 @@ func load_dialogue(file_path, scene_name) -> Dictionary:
 	max_dialogue_index = dialogue.size()
 	return dialogue
 
-
 func run_dialogue():
-	# Iterate to max_dialogue_index - 1 to account for scene metadata in json
-	if dialogue_index < max_dialogue_index - 1:
-		current_speaker = dialogue[str(dialogue_index)]['name']
-		current_speaker_text = dialogue[str(dialogue_index)]['text']
+	if dialogue_index < max_dialogue_index:
+		if dialogue[str(dialogue_index)]['type'] == "display":
+			current_speaker = dialogue[str(dialogue_index)]['speaker']
+			current_speaker_text = dialogue[str(dialogue_index)]['text']
 	else:
 		dialogue_active = false
 		dialogue_finished = true
 	dialogue_index += 1
+
