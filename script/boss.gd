@@ -217,7 +217,7 @@ func _on_revvingTimer_timeout():
 	_boss_sprite.modulate = Color(1,1,1,1)
 	var bodies_to_damage
 	for body in detected_bodies_to_hit:
-		if not swing_damaged:
+		if not swing_damaged and not dead:
 			body.take_damage(50)
 			swing_damaged = true
 	revving_timer.stop()
