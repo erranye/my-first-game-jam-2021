@@ -1,0 +1,43 @@
+{
+    "meta": {
+        "scene_name": "Subway"
+    },
+	"scene3": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "I made the subway right as the doors closed. Rush hour was already over; that's how late I was to work, so finding a seat was fairly easy."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "I checked my phone. 20%."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I popped my phone and loaded the front page of Universe, the net's largest community and content aggregator."
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Was there something to browse? Something to look for?"
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "My fingers itched in expectation. Ah right! There was that show the other night that I had watched. What was its name...."
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Wild Cards I think?"
+        }
+    }
+}

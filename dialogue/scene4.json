@@ -1,0 +1,59 @@
+{
+    "meta": {
+        "scene_name": "Phone Screen"
+    },
+	"scene4": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "The comments were all over the place."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "Was it for last night? The day before?"
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I guess something must have happened in the show last night."
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Vague memories came to my mind."
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "A standoff in the hallway leading to a bank vault, a betrayal of an ex-lover, a detective finds a key piece of evidence in his brother's apartment. "
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "None of it was extremely familiar, but reading through the spoilers in the episode thread managed to jog a bit of my memory, enough that I was ready to post my opinion on the episode."
+        },
+		"6": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Because, of course, I needed to have an opinion. An opinion, yes."
+        },
+		"7": {
+            "type": "choice",
+            "choices": ["What is this show?????", "Yea the show was awesome last night!!", "This show SUCKS"]
+        },
+		"8": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "As I finished typing my 500 word post, I noticed that my train was nearing my designated stop, so I quickly posted without editing my syntax, ensured my briefcase was still next to me, and stepped off the train."
+        }
+    }
+}

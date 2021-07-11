@@ -1,0 +1,115 @@
+{
+    "meta": {
+        "scene_name": "Office"
+    },
+	"scene5": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "I worked on the 11th floor of an office building just a block from my subway stop."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "There was a nice cafe on the ground floor where I would sneak off to during lunch hours to check my messages and my feed."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "The office layout was about as mundane as it came. Cubicles everywhere, no friends to be made here. "
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "As I walked down the long aisle to my desk, I could see a few people ducking their heads over and then quickly below their cubicle walls."
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Yes, I have arrived, and I am late."
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "As I seated myself at the desk, ensuring I plugged in my phone to the charger before I switched on anything else, I could hear the loud sounds of my boss's feet stomping towards me."
+        },
+		"6": {
+            "type": "display",
+            "speaker": "Boss",
+            "expression": "reassuring",
+            "text": "Hey! Where have you been all morning?"
+        },
+		"7": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "'Sorry boss, my alarm didn't go off, phone died.'"
+        },
+		"8": {
+            "type": "display",
+            "speaker": "Boss",
+            "expression": "reassuring",
+            "text": "You can't keep doing this. First it was you fell asleep at your computer 'working.' Then it was you got 'lost' wandering outside, and now it's your phone."
+        },
+		"9": {
+            "type": "display",
+            "speaker": "Boss",
+            "expression": "reassuring",
+            "text": "You gotta stop making excuses and get to work on time like everybody else."
+        },
+		"10": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "'Right boss. I'll do that.'"
+        },
+		"11": {
+            "type": "display",
+            "speaker": "Boss",
+            "expression": "reassuring",
+            "text": "Now listen, that presentation is being bumped up to tomorrow, so I hope those documents you prepared are ready."
+        },
+		"12": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I felt a lurch in my stomach. Of course they weren't ready!"
+        },
+		"13": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "'I was supposed to have all of this week to prepare...'"
+        },
+		"14": {
+            "type": "display",
+            "speaker": "Boss",
+            "expression": "reassuring",
+            "text": "Well, you don't anymore. Get what you have to me by 5PM and we'll see how long you need to stay overtime today."
+        },
+		"15": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I sat back in my seat, on the verge of just slamming something out of frustration at the unfairness of it all."
+        },
+		"16": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "But I didn't have time for that. There wasn't time for anything."
+        },
+		"17": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "My phone ticked up to 21%."
+        }
+    }
+}

@@ -1,41 +1,55 @@
 {
     "meta": {
-        "scene_name": "Bedroom"
+        "scene_name": "Restroom"
     },
 	"scene1": {
 		"0": {
             "type": "display",
-			"speaker": "Test Character 1",
+			"speaker": "Me",
 			"expression": "hopeful",
-			"text": "Man! I really hope I get this thing working!"
+			"text": "I stared at myself in the mirror after rinsing off my crusty eyelids with a splash of cold water."
 		},
         "1": {
             "type": "display",
-            "speaker": "Test Character 2",
+            "speaker": "Me",
             "expression": "angry",
-            "text": "It better work."
+            "text": "Boy, I looked like a mess."
         },
         "2": {
             "type": "display",
-            "speaker": "Test Character 3",
+            "speaker": "Me",
             "expression": "reassuring",
-            "text": "It will work."
+            "text": "Bloodshot eyes, disheveled hair, I could barely recognize myself."
         },
-        "3": {
+		"3": {
             "type": "display",
-            "speaker": "Test Character 3",
+            "speaker": "Me",
             "expression": "reassuring",
-            "text": "Don't add multiple same indices."
+            "text": "Did I really stay up that long last night?"
         },
-        "4": {
-            "type": "choice",
-            "choices": ["OOGALABOOGALA", "JOOGALADOOGALA", "THIS IS A CHOICE"]
-        },
-        "5": {
+		"4": {
             "type": "display",
-            "speaker": "I am a Character",
-            "expression": "angry",
-            "text": "More text."
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "What was I even doing?"
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "It was hard to remember."
+        },
+		"6": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "No, that's not the right way to say it."
+        },
+		"7": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "It hurt to remember."
         }
-	}
+    }
 }

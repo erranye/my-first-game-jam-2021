@@ -1,0 +1,91 @@
+{
+    "meta": {
+        "scene_name": "Lunch Break"
+    },
+	"scene6": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "Finally, a few hours later, I managed to catch a break. Most of the necessities of the presentation had been dealt with, and what was left was largely window dressing to make the presentation look good to our superiors."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "I checked my phone."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "It was an hour past our recommended lunch break already. My stomach grumbled now that I was aware of what time it was, and I discretely stepped out of the office and headed for the cafe downstairs, my phone in hand."
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "At the cafe downstairs, I ordered one of their premade sandwiches and a bottle of juice from the fridge, then sat at a table far from the others and took out my phone again."
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "That's when I noticed something was wrong."
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I received an alert notifying that I had received a text message. From myself."
+        },
+		"6": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Not too alarming, I thought, considering I had briefly put my phone in my pocket, and it was possible, though unlikely, that it had just texted myself while I was walking down the steps with my hands in my pocket."
+        },
+		"7": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "But then I realized there was a coherent message in the text itself."
+        },
+		"8": {
+            "type": "display",
+            "speaker": "Text Message",
+            "expression": "reassuring",
+            "text": "Are you enjoying the flame war online? Check out the thread."
+        },
+		"9": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "My first instinct was to conclude that my phone had been hacked somehow, an annoying inconvenience, but nothing to write home about, but as the thought occured to me in my head, another text came to me, once again from my own number."
+        },
+		"10": {
+            "type": "display",
+            "speaker": "Text Message",
+            "expression": "reassuring",
+            "text": "Your phone isn't hacked. Click the link. People have really gotten riled up by what you've said."
+        },
+		"11": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I shut my phone off."
+        },
+		"12": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I remember when I was younger, I'd be receiving email and messages from friends only to learn that they had clicked some improper link which had subsequently started shooting out malicious links using their name and addresses."
+        },
+		"13": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I finished what remained of my sandwich and headed back upstairs, but a lingering curiosity gnawed away at me, like a bug that kept returning to my arm or legs to take small bites."
+        }
+    }
+}

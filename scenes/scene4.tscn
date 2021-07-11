@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://dialogueUI.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/sceneHandler.gd" type="Script" id=2]
+
+[node name="scene4" type="Node"]
+script = ExtResource( 2 )
+
+[node name="DialogueUI" parent="." instance=ExtResource( 1 )]

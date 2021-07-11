@@ -1,0 +1,43 @@
+{
+    "meta": {
+        "scene_name": "Kitchen"
+    },
+	"scene2": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "After dressing up my appearance as much as humanly possible, I perused through my fridge for anything edible."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "My stomach growled with a low intensity but I knew it was going to get stronger the more I woke up."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Unfortunately, I could only see some rancid milk and moldy bread."
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "How long had it been since I last cleaned out the fridge? It couldn't have been more than a week? Or could it?"
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Alice would've known."
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I put the poor state of the fridge to the back of my mind and rushed out the door with nothing but my hastily thrown on business clothes and a briefcase, returning home briefly to fetch my phone."
+        }
+    }
+}

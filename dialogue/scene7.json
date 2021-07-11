@@ -1,0 +1,133 @@
+{
+    "meta": {
+        "scene_name": "Office Afternoon"
+    },
+	"scene7": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "As I returned upstairs, I logged onto Universe on my work computer, ignoring the alert that suggested that my activity could be logged as non-work activity."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "That was when I saw it."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "My inbox had exploded with comments. Sure, maybe I had been a bit overzealous in my statements but hundreds of comments seemed excessive."
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "The comments were nasty and seemed to be referring to things I hadn't even said. "
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "There was a ping, the sound of a private message."
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Even stranger was my privacy settings completely disallowed anyone not on my friend's list from sending me PMs, and as embarrassing it was to say, there was nobody on my friend's list."
+        },
+		"6": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "But once again, the sender was none other than myself, and the message only continued the one-sided conversation that I was trying to have with myself down at the cafe."
+        },
+		"7": {
+            "type": "display",
+            "speaker": "Private Message",
+            "expression": "reassuring",
+            "text": "You happy about the responses? You're getting a lot of traction."
+        },
+		"8": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "'Great,' I murmured to myself. 'It's hacked my Universe account too.'"
+        },
+		"9": {
+            "type": "display",
+            "speaker": "Private Message",
+            "expression": "reassuring",
+            "text": "Will you stop saying 'hacked'? It's not accurate. It's more like I'm posting on your behalf."
+        },
+		"10": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I froze. More messages came in."
+        },
+		"11": {
+            "type": "display",
+            "speaker": "Private Message",
+            "expression": "reassuring",
+            "text": "Oh don't look so dumbfounded. I mean, you post so much on the net, you should've seen this coming."
+        },
+		"12": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Maybe it's connected to my work webcam?"
+        },
+		"13": {
+            "type": "display",
+            "speaker": "Private Message",
+            "expression": "reassuring",
+            "text": "Don't be ridiculous, your work computer isn't even equipped with one. Do you need me to start naming your most embarrassing secrets to really get your attention?"
+        },
+		"14": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "What an ingeniously designed and almost life like virtual program. It's gotta be bluffing."
+        },
+		"15": {
+            "type": "display",
+            "speaker": "Private Message",
+            "expression": "reassuring",
+            "text": "You hid in the closet on that evening in the second grade. You watched them and did nothing."
+        },
+		"16": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "This time I froze for good. The blood must've drained from my face because it felt so numb. What was going on? How did this hacker know this?"
+        },
+		"17": {
+            "type": "display",
+            "speaker": "Private Message",
+            "expression": "reassuring",
+            "text": "I'm no hacker."
+        },
+		"18": {
+            "type": "display",
+            "speaker": "Private Message",
+            "expression": "reassuring",
+            "text": "I told you, I'm you."
+        },
+		"19": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "'Okay, that's it.' It was a mistake to be browsing during work hours, and I knew that now. I shut off the browser."
+        },
+		"20": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I hadn't noticed that sweat had accumulated on my brow. I wiped it off with a handkerchief and took deep breaths. Back to work, I told myself. Back to work."
+        }
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "meta": {
+        "scene_name": "Office Evening"
+    },
+	"scene8": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "I paid the Internet no mind as the hours of the evening approached."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "Instead, I focused on the presentation. It still needed some touching up, the colors didn't really match, and some of the pictures weren't aligned properly."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "My phone began to vibrate, and I could already tell it was this virus, this hack, this abberration, or whatever it was, trying to scam me."
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I switched off the vibration, and turned back to the presentation. It was looking better. Maybe I should send it to the boss for approval, see if it's enough..."
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Moments later however, I heard a set of footsteps approaching, and then came my boss."
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Boss",
+            "expression": "reassuring",
+            "text": "Hey, you wanted to see me? You said your presentation was ready?"
+        },
+		"6": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "What?"
+        },
+		"7": {
+            "type": "display",
+            "speaker": "Boss",
+            "expression": "reassuring",
+            "text": "On the message chat just now? You said the presentation was looking good? Can I see it?"
+        },
+		"8": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "'How-', but I stopped myself before finishing that sentence. The boss looked at me with expectation, so I showed him the fruits of my labor."
+        },
+		"9": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Yeah, here you go. Take a look."
+        },
+		"10": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "As the boss pushed me aside to gauge the quality of the presentation, I took a sneak peak at my phone. More messages, all of them from 'myself.'"
+        },
+		"11": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "See? I'm helping. I think we need to get to know each other better. Then you'll trust me."
+        },
+		"12": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "I love you. More than others do for you, more than you love yourself."
+        },
+		"13": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Will you quit it? For the first time, I typed back to this message on my phone. At this point I didn't care. Virus? Hacker? "
+        },
+		"14": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "No. I have no intention of stopping."
+        },
+		"15": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Why? Why are you doing this to me? How is this even happening?"
+        },
+		"16": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "Because this is what you want. You want all of this. I'm only doing as you would do."
+        },
+		"17": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "The messages stopped for the rest of the evening. My boss approved my presentation and I was allowed to leave on time for once. A wave of relief passed through me as I walked out of the office and back home."
+        }
+    }
+}

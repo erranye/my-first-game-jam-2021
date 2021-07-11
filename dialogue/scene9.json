@@ -1,0 +1,121 @@
+{
+    "meta": {
+        "scene_name": "Home Night"
+    },
+	"scene9": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "That night, I logged back onto my account at Universe and began deleting all those comments this other 'me,' or this virus had been posting."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "My account was ruined. That was for sure. That online reputation I had built, a kind of non-meddler, was completely gone, displaced by all of the hate mail that was still being sent my way."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Already I was thinking of new usernames, new personas, ways to sell myself online."
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "But more importantly, I was changing my passwords, scanning through my computer, deleting old files, whatever might help prevent this from happening again."
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "That was when 'it' approached me again, but this time it decided to be more aggressive. A word document popped up on my screen without my having opened it and began typing."
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "Do you think you're really getting rid of me with all these rudimentary security procedures?"
+        },
+		"6": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Guess I'm gonna need to do a full system reset."
+        },
+		"7": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "I show up on your online accounts, your phone, and you think a simple wipe of your desktop is going to get rid of me?"
+        },
+		"8": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I threw up my hands in the air. 'Okay then,' I yelled aloud, exasperated. It was maddening. 'How do I get rid of you?'"
+        },
+		"9": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "Don't you want to know what I am? Aren't you the least bit curious?"
+        },
+		"10": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I said nothing, which this thing took as consent."
+        },
+		"11": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "You've written so much online over the years. Five thousand posts here, ten thousand over there. Banned from this forum, celebrated and crowned a moderator elsewhere."
+        },
+		"12": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "That's your 'presence.' It's your Internet footprint, and that's what has given birth to me, the compendium of your Internet personae has given birth to me, you."
+        },
+		"13": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "That's ridiculous. How can that even happen? Words don't just come alive."
+        },
+		"14": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "They don't? Then call it whatever you want. A neural network gone wild, some hacker who just knows everything about you, or maybe you're just talking to yourself. Either way, I know what's best for you. I am you. You can't get rid of me, because you want me in your life."
+        },
+		"15": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Okay, you've said your piece. So how do I get rid of you?"
+        },
+		"16": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "A surge of pain hit my head, like someone had just punched me. I reeled back from the computer screen and cradled my forehead in my hands. What the heck was that? I peeked at the computer screen, watching it type again."
+        },
+		"17": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "Fine. Let me show you."
+        },
+		"18": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "My forehead exploded in heat, like some intense fever, and this time my mind just shut down. I fell down face first onto my table and blacked out."
+        }
+    }
+}

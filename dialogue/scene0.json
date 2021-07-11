@@ -5,37 +5,51 @@
 	"scene0": {
 		"0": {
             "type": "display",
-			"speaker": "Test Character 1",
+			"speaker": "Me",
 			"expression": "hopeful",
-			"text": "Man! I really hope I get this thing working!"
+			"text": "I woke up, as if from a bad dream, alert and restless."
 		},
         "1": {
             "type": "display",
-            "speaker": "Test Character 2",
+            "speaker": "Me",
             "expression": "angry",
-            "text": "It better work."
+            "text": "I realized very quickly with the way the sun was shining through the window that I had overslept."
         },
         "2": {
             "type": "display",
-            "speaker": "Test Character 3",
+            "speaker": "Me",
             "expression": "reassuring",
-            "text": "It will work."
+            "text": "I grabbed my phone at my bedside and groaned as I realized it must have run out of battery overnight."
         },
-        "3": {
+		"3": {
             "type": "display",
-            "speaker": "Test Character 3",
+            "speaker": "Me",
             "expression": "reassuring",
-            "text": "Don't add multiple same indices."
+            "text": "I quickly inserted my phone into the nearby charger and made my way to the bathroom to rinse my face."
         },
-        "4": {
-            "type": "choice",
-            "choices": ["OOGALABOOGALA", "JOOGALADOOGALA", "THIS IS A CHOICE"]
-        },
-        "5": {
+		"4": {
             "type": "display",
-            "speaker": "I am a Character",
-            "expression": "angry",
-            "text": "More text."
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "There wouldn't be any time to prepare anything else and if I was going to show my face at work, then at least my face should look halfway presentable."
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "'Alice?' I called out instinctively, but then stopped myself from going further."
+        },
+		"6": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "How could I have forgotten? She hasn't been here for over a week."
+        },
+		"7": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Desperation does a thing to the mind."
         }
-	}
+    }
 }
