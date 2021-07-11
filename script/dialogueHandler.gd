@@ -14,7 +14,7 @@ func load_dialogue(file_path, scene_name) -> Dictionary:
 	Parse JSON, return dictionary.
 	"""
 	var file = File.new()
-	assert(file.file_exists(file_path))
+#	assert(file.file_exists(file_path))
 
 	file.open(file_path, file.READ)
 	dialogue = parse_json(file.get_as_text())[scene_name] 

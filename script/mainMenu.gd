@@ -7,7 +7,6 @@ func start_game():
 func skip_to_boss_fight():
 	get_tree().change_scene("res://scenes/platformScene.tscn")
 
-
 func _on_startGame_pressed():
 	start_game()
 
