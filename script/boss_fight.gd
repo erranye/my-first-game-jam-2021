@@ -41,6 +41,8 @@ func _ready():
 func _process(dt):
 	if player._player_dead:
 		$tryAgainContainer.show()
+	if boss.dead:
+		$AcceptDialog.show()
 
 func boss_reposition():
 	randomize()
@@ -120,3 +122,7 @@ func restart_fight():
 
 func _on_restartButton_pressed():
 	get_tree().change_scene(get_tree().current_scene.filename)
+
+
+func _on_AcceptDialog_confirmed():
+	get_tree().change_scene("res://scenes/mainMenu.tscn")

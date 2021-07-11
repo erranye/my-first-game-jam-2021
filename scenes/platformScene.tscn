@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://assets/tileset/warped city/tileset.png" type="Texture" id=1]
 [ext_resource path="res://assets/player.tscn" type="PackedScene" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://assets/tileset/warped city/background/near-buildings-bg.png" type="Texture" id=5]
 [ext_resource path="res://assets/tileset/warped city/background/cyberpunk-street.png" type="Texture" id=6]
 [ext_resource path="res://assets/tileset/warped city/background/buildings-bg.png" type="Texture" id=7]
+[ext_resource path="res://dialogueUI.tscn" type="PackedScene" id=8]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
@@ -458,5 +459,29 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 text = "Try Again"
 
+[node name="DialogueUI" parent="." instance=ExtResource( 8 )]
+visible = false
+margin_left = 511.244
+margin_top = 588.664
+margin_right = 511.244
+margin_bottom = 588.664
+
+[node name="AcceptDialog" type="AcceptDialog" parent="."]
+visible = true
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -349.5
+margin_top = -29.0
+margin_right = 349.5
+margin_bottom = 29.0
+window_title = "NICE"
+dialog_text = "Yo, nicely done. You've slain your online persona. Thanks for playing, and hope you enjoyed this silly game."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [connection signal="timeout" from="bossRepositionTimer" to="." method="_on_bossRepositionTimer_timeout"]
 [connection signal="pressed" from="tryAgainContainer/restartButton" to="." method="_on_restartButton_pressed"]
+[connection signal="confirmed" from="AcceptDialog" to="." method="_on_AcceptDialog_confirmed"]
