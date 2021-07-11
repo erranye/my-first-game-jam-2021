@@ -25,7 +25,6 @@ func _process(dt):
 			update_dialogue()
 			if scene_dialogue_handler.dialogue_finished:
 				# Scene transition
-				print("End scene")
 				go_next_scene = true
 				scene_number += 1 
 				if scene_number < 10:

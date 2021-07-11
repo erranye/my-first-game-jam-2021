@@ -1,0 +1,782 @@
+{
+    "scene0": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "I woke up, as if from a bad dream, alert and restless."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "I realized very quickly with the way the sun was shining through the window that I had overslept."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I grabbed my phone at my bedside and groaned as I realized it must have run out of battery overnight."
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I quickly inserted my phone into the nearby charger and made my way to the bathroom to rinse my face."
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "There wouldn't be any time to prepare anything else and if I was going to show my face at work, then at least my face should look halfway presentable."
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "'Alice?' I called out instinctively, but then stopped myself from going further."
+        },
+		"6": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "How could I have forgotten? She hasn't been here for over a week."
+        },
+		"7": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Desperation does a thing to the mind."
+        }
+    },
+    "scene1": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "I stared at myself in the mirror after rinsing off my crusty eyelids with a splash of cold water."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "Boy, I looked like a mess."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Bloodshot eyes, disheveled hair, I could barely recognize myself."
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Did I really stay up that long last night?"
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "What was I even doing?"
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "It was hard to remember."
+        },
+		"6": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "No, that's not the right way to say it."
+        },
+		"7": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "It hurt to remember."
+        }
+    },
+    "scene2": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "After dressing up my appearance as much as humanly possible, I perused through my fridge for anything edible."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "My stomach growled with a low intensity but I knew it was going to get stronger the more I woke up."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Unfortunately, I could only see some rancid milk and moldy bread."
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "How long had it been since I last cleaned out the fridge? It couldn't have been more than a week? Or could it?"
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Alice would've known."
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I put the poor state of the fridge to the back of my mind and rushed out the door with nothing but my hastily thrown on business clothes and a briefcase, returning home briefly to fetch my phone."
+        }
+    },
+    "scene3": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "I made the subway right as the doors closed. Rush hour was already over; that's how late I was to work, so finding a seat was fairly easy."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "I checked my phone. 20%."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I popped my phone and loaded the front page of Universe, the net's largest community and content aggregator."
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Was there something to browse? Something to look for?"
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "My fingers itched in expectation. Ah right! There was that show the other night that I had watched. What was its name...."
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Wild Cards I think?"
+        }
+    },
+    "scene4": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "The comments were all over the place."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "Was it for last night? The day before?"
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I guess something must have happened in the show last night."
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Vague memories came to my mind."
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "A standoff in the hallway leading to a bank vault, a betrayal of an ex-lover, a detective finds a key piece of evidence in his brother's apartment. "
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "None of it was extremely familiar, but reading through the spoilers in the episode thread managed to jog a bit of my memory, enough that I was ready to post my opinion on the episode."
+        },
+		"6": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Because, of course, I needed to have an opinion. An opinion, yes."
+        },
+		"7": {
+            "type": "choice",
+            "choices": ["What is this show?????", "Yea the show was awesome last night!!", "This show SUCKS"]
+        },
+		"8": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "As I finished typing my 500 word post, I noticed that my train was nearing my designated stop, so I quickly posted without editing my syntax, ensured my briefcase was still next to me, and stepped off the train."
+        }
+    },
+    "scene5": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "I worked on the 11th floor of an office building just a block from my subway stop."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "There was a nice cafe on the ground floor where I would sneak off to during lunch hours to check my messages and my feed."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "The office layout was about as mundane as it came. Cubicles everywhere, no friends to be made here. "
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "As I walked down the long aisle to my desk, I could see a few people ducking their heads over and then quickly below their cubicle walls."
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Yes, I have arrived, and I am late."
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "As I seated myself at the desk, ensuring I plugged in my phone to the charger before I switched on anything else, I could hear the loud sounds of my boss's feet stomping towards me."
+        },
+		"6": {
+            "type": "display",
+            "speaker": "Boss",
+            "expression": "reassuring",
+            "text": "Hey! Where have you been all morning?"
+        },
+		"7": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "'Sorry boss, my alarm didn't go off, phone died.'"
+        },
+		"8": {
+            "type": "display",
+            "speaker": "Boss",
+            "expression": "reassuring",
+            "text": "You can't keep doing this. First it was you fell asleep at your computer 'working.' Then it was you got 'lost' wandering outside, and now it's your phone."
+        },
+		"9": {
+            "type": "display",
+            "speaker": "Boss",
+            "expression": "reassuring",
+            "text": "You gotta stop making excuses and get to work on time like everybody else."
+        },
+		"10": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "'Right boss. I'll do that.'"
+        },
+		"11": {
+            "type": "display",
+            "speaker": "Boss",
+            "expression": "reassuring",
+            "text": "Now listen, that presentation is being bumped up to tomorrow, so I hope those documents you prepared are ready."
+        },
+		"12": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I felt a lurch in my stomach. Of course they weren't ready!"
+        },
+		"13": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "'I was supposed to have all of this week to prepare...'"
+        },
+		"14": {
+            "type": "display",
+            "speaker": "Boss",
+            "expression": "reassuring",
+            "text": "Well, you don't anymore. Get what you have to me by 5PM and we'll see how long you need to stay overtime today."
+        },
+		"15": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I sat back in my seat, on the verge of just slamming something out of frustration at the unfairness of it all."
+        },
+		"16": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "But I didn't have time for that. There wasn't time for anything."
+        },
+		"17": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "My phone ticked up to 21%."
+        }
+    },
+    "scene6": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "Finally, a few hours later, I managed to catch a break. Most of the necessities of the presentation had been dealt with, and what was left was largely window dressing to make the presentation look good to our superiors."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "I checked my phone."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "It was an hour past our recommended lunch break already. My stomach grumbled now that I was aware of what time it was, and I discretely stepped out of the office and headed for the cafe downstairs, my phone in hand."
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "At the cafe downstairs, I ordered one of their premade sandwiches and a bottle of juice from the fridge, then sat at a table far from the others and took out my phone again."
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "That's when I noticed something was wrong."
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I received an alert notifying that I had received a text message. From myself."
+        },
+		"6": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Not too alarming, I thought, considering I had briefly put my phone in my pocket, and it was possible, though unlikely, that it had just texted myself while I was walking down the steps with my hands in my pocket."
+        },
+		"7": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "But then I realized there was a coherent message in the text itself."
+        },
+		"8": {
+            "type": "display",
+            "speaker": "Text Message",
+            "expression": "reassuring",
+            "text": "Are you enjoying the flame war online? Check out the thread."
+        },
+		"9": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "My first instinct was to conclude that my phone had been hacked somehow, an annoying inconvenience, but nothing to write home about, but as the thought occured to me in my head, another text came to me, once again from my own number."
+        },
+		"10": {
+            "type": "display",
+            "speaker": "Text Message",
+            "expression": "reassuring",
+            "text": "Your phone isn't hacked. Click the link. People have really gotten riled up by what you've said."
+        },
+		"11": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I shut my phone off."
+        },
+		"12": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I remember when I was younger, I'd be receiving email and messages from friends only to learn that they had clicked some improper link which had subsequently started shooting out malicious links using their name and addresses."
+        },
+		"13": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I finished what remained of my sandwich and headed back upstairs, but a lingering curiosity gnawed away at me, like a bug that kept returning to my arm or legs to take small bites."
+        }
+    },
+    "scene7": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "As I returned upstairs, I logged onto Universe on my work computer, ignoring the alert that suggested that my activity could be logged as non-work activity."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "That was when I saw it."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "My inbox had exploded with comments. Sure, maybe I had been a bit overzealous in my statements but hundreds of comments seemed excessive."
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "The comments were nasty and seemed to be referring to things I hadn't even said. "
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "There was a ping, the sound of a private message."
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Even stranger was my privacy settings completely disallowed anyone not on my friend's list from sending me PMs, and as embarrassing it was to say, there was nobody on my friend's list."
+        },
+		"6": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "But once again, the sender was none other than myself, and the message only continued the one-sided conversation that I was trying to have with myself down at the cafe."
+        },
+		"7": {
+            "type": "display",
+            "speaker": "Private Message",
+            "expression": "reassuring",
+            "text": "You happy about the responses? You're getting a lot of traction."
+        },
+		"8": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "'Great,' I murmured to myself. 'It's hacked my Universe account too.'"
+        },
+		"9": {
+            "type": "display",
+            "speaker": "Private Message",
+            "expression": "reassuring",
+            "text": "Will you stop saying 'hacked'? It's not accurate. It's more like I'm posting on your behalf."
+        },
+		"10": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I froze. More messages came in."
+        },
+		"11": {
+            "type": "display",
+            "speaker": "Private Message",
+            "expression": "reassuring",
+            "text": "Oh don't look so dumbfounded. I mean, you post so much on the net, you should've seen this coming."
+        },
+		"12": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Maybe it's connected to my work webcam?"
+        },
+		"13": {
+            "type": "display",
+            "speaker": "Private Message",
+            "expression": "reassuring",
+            "text": "Don't be ridiculous, your work computer isn't even equipped with one. Do you need me to start naming your most embarrassing secrets to really get your attention?"
+        },
+		"14": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "What an ingeniously designed and almost life like virtual program. It's gotta be bluffing."
+        },
+		"15": {
+            "type": "display",
+            "speaker": "Private Message",
+            "expression": "reassuring",
+            "text": "You hid in the closet on that evening in the second grade. You watched them and did nothing."
+        },
+		"16": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "This time I froze for good. The blood must've drained from my face because it felt so numb. What was going on? How did this hacker know this?"
+        },
+		"17": {
+            "type": "display",
+            "speaker": "Private Message",
+            "expression": "reassuring",
+            "text": "I'm no hacker."
+        },
+		"18": {
+            "type": "display",
+            "speaker": "Private Message",
+            "expression": "reassuring",
+            "text": "I told you, I'm you."
+        },
+		"19": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "'Okay, that's it.' It was a mistake to be browsing during work hours, and I knew that now. I shut off the browser."
+        },
+		"20": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I hadn't noticed that sweat had accumulated on my brow. I wiped it off with a handkerchief and took deep breaths. Back to work, I told myself. Back to work."
+        }
+    },
+    "scene8": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "I paid the Internet no mind as the hours of the evening approached."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "Instead, I focused on the presentation. It still needed some touching up, the colors didn't really match, and some of the pictures weren't aligned properly."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "My phone began to vibrate, and I could already tell it was this virus, this hack, this abberration, or whatever it was, trying to scam me."
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I switched off the vibration, and turned back to the presentation. It was looking better. Maybe I should send it to the boss for approval, see if it's enough..."
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Moments later however, I heard a set of footsteps approaching, and then came my boss."
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Boss",
+            "expression": "reassuring",
+            "text": "Hey, you wanted to see me? You said your presentation was ready?"
+        },
+		"6": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "What?"
+        },
+		"7": {
+            "type": "display",
+            "speaker": "Boss",
+            "expression": "reassuring",
+            "text": "On the message chat just now? You said the presentation was looking good? Can I see it?"
+        },
+		"8": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "'How-', but I stopped myself before finishing that sentence. The boss looked at me with expectation, so I showed him the fruits of my labor."
+        },
+		"9": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Yeah, here you go. Take a look."
+        },
+		"10": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "As the boss pushed me aside to gauge the quality of the presentation, I took a sneak peak at my phone. More messages, all of them from 'myself.'"
+        },
+		"11": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "See? I'm helping. I think we need to get to know each other better. Then you'll trust me."
+        },
+		"12": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "I love you. More than others do for you, more than you love yourself."
+        },
+		"13": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Will you quit it? For the first time, I typed back to this message on my phone. At this point I didn't care. Virus? Hacker? "
+        },
+		"14": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "No. I have no intention of stopping."
+        },
+		"15": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Why? Why are you doing this to me? How is this even happening?"
+        },
+		"16": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "Because this is what you want. You want all of this. I'm only doing as you would do."
+        },
+		"17": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "The messages stopped for the rest of the evening. My boss approved my presentation and I was allowed to leave on time for once. A wave of relief passed through me as I walked out of the office and back home."
+        }
+    },
+    "scene9": {
+		"0": {
+            "type": "display",
+			"speaker": "Me",
+			"expression": "hopeful",
+			"text": "That night, I logged back onto my account at Universe and began deleting all those comments this other 'me,' or this virus had been posting."
+		},
+        "1": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "angry",
+            "text": "My account was ruined. That was for sure. That online reputation I had built, a kind of non-meddler, was completely gone, displaced by all of the hate mail that was still being sent my way."
+        },
+        "2": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Already I was thinking of new usernames, new personas, ways to sell myself online."
+        },
+		"3": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "But more importantly, I was changing my passwords, scanning through my computer, deleting old files, whatever might help prevent this from happening again."
+        },
+		"4": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "That was when 'it' approached me again, but this time it decided to be more aggressive. A word document popped up on my screen without my having opened it and began typing."
+        },
+		"5": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "Do you think you're really getting rid of me with all these rudimentary security procedures?"
+        },
+		"6": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Guess I'm gonna need to do a full system reset."
+        },
+		"7": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "I show up on your online accounts, your phone, and you think a simple wipe of your desktop is going to get rid of me?"
+        },
+		"8": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I threw up my hands in the air. 'Okay then,' I yelled aloud, exasperated. It was maddening. 'How do I get rid of you?'"
+        },
+		"9": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "Don't you want to know what I am? Aren't you the least bit curious?"
+        },
+		"10": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "I said nothing, which this thing took as consent."
+        },
+		"11": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "You've written so much online over the years. Five thousand posts here, ten thousand over there. Banned from this forum, celebrated and crowned a moderator elsewhere."
+        },
+		"12": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "That's your 'presence.' It's your Internet footprint, and that's what has given birth to me, the compendium of your Internet personae has given birth to me, you."
+        },
+		"13": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "That's ridiculous. How can that even happen? Words don't just come alive."
+        },
+		"14": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "They don't? Then call it whatever you want. A neural network gone wild, some hacker who just knows everything about you, or maybe you're just talking to yourself. Either way, I know what's best for you. I am you. You can't get rid of me, because you want me in your life."
+        },
+		"15": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "Okay, you've said your piece. So how do I get rid of you?"
+        },
+		"16": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "A surge of pain hit my head, like someone had just punched me. I reeled back from the computer screen and cradled my forehead in my hands. What the heck was that? I peeked at the computer screen, watching it type again."
+        },
+		"17": {
+            "type": "display",
+            "speaker": "Me?",
+            "expression": "reassuring",
+            "text": "Fine. Let me show you."
+        },
+		"18": {
+            "type": "display",
+            "speaker": "Me",
+            "expression": "reassuring",
+            "text": "My forehead exploded in heat, like some intense fever, and this time my mind just shut down. I fell down face first onto my table and blacked out."
+        }
+    }
+}

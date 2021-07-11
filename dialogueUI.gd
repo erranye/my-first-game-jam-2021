@@ -54,32 +54,13 @@ func hide_dialogue_options():
 	dialogue_scrollbox.visible = false
 
 func set_background_image(path_to_image):
-	var new_texture = ImageTexture.new()
-	var new_image = Image.new()
-	new_image.load(path_to_image)
-	new_texture.create_from_image(new_image)
-	$CanvasLayer/TextureRect.set_texture(new_texture)
+	$CanvasLayer/TextureRect.set_texture(load(path_to_image))
 
 func set_speaker_image(path_to_image):
-	var new_texture = ImageTexture.new()
-	var new_image = Image.new()
-	new_image.load(path_to_image)
-	new_texture.create_from_image(new_image)
-	$speakerSprite.set_texture(new_texture)
+	$speakerSprite.set_texture(load(path_to_image))
 
 func show_speaker_image():
 	$speakerSprite.visible = true
 
 func hide_speaker_image():
 	$speakerSprite.visible = false
-
-func set_dialogue_options_prompt(dialogue_prompt_text):
-	dialogue_options_prompt.bbcode_text = dialogue_prompt_text
-	
-func add_dialogue_option(dialogue_text, function):
-	var new_button = Button.instance()
-	new_button.text = dialogue_text
-	dialogue_options_container.add_child(new_button)
-
-func connect_function(button, function):
-	button.connect("pressed", self, function)

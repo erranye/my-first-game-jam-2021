@@ -27,6 +27,7 @@ _global_script_class_icons={
 [application]
 
 config/name="mfgj2021"
+run/main_scene="res://scenes/mainMenu.tscn"
 config/icon="res://icon.png"
 
 [input]
